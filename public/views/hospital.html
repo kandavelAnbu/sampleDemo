@@ -1,0 +1,13 @@
+<div class="grid" ui-grid="gridOptions">
+    <div class="well grid-loading" ng-show="grid.rows.length == 0">
+    </div>
+</div>
+
+<div clas="time">
+    Current time is: <span my-current-time="format"></span>
+</div>
+
+<div ui-view class = "content"></div>
+<div ui-sref="home.hospital.add">ADD</div>
+<div ui-sref="home.hospital.update">update</div>
+<div ui-sref="home.hospital.delete">DELETE</div>

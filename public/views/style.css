@@ -1,0 +1,30 @@
+.content {
+    float: left;
+}
+
+/*.grid {
+    width: 500px;
+    height: 230px;
+    border-bottom: 1px solid #d4d4d4;
+    overflow: auto;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 300px;
+    display: list-item;
+    showheader: 20px;
+}*/
+
+.grid {
+  width: 900px;
+  height: 400px;
+  overflow: auto;
+  font-weight: bold;
+  position: relative;
+  display: table-header-group;
+}
+.white { color: white;background-color:red !important;  }
+
+.time {
+    float: left;
+    color: white;background-color:red !important;
+}
